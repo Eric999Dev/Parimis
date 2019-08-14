@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 <!-- Contenu page Mentions legales (debut) -->
 <main id=mentions>
 	<strong>La seule contrepartie à l'utilisation de ces mentions légales, est l'engagement total à laisser le lien crédit subdelirium sur cette page de mentions légales.</strong><br />
@@ -63,4 +63,4 @@
 
 </main>
 <!-- Contenu page Chambres (fin) -->
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

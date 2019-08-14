@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 
 <!-- Contenu page avis (debut) -->
 <main>
@@ -35,7 +35,7 @@
     <div class="temoignage ">
         <div class="avatar">
 
-            <img src="../imgs/actualites/avatar-h.jpg" alt="avatar-homme"> <br>
+            <img src="imgs/actualites/avatar-h.jpg" alt="avatar-homme"> <br>
             <p style="margin-left: -13%;">
                 Sexe : Homme <br>
                 Note : 4/5 <br>
@@ -56,7 +56,7 @@
 
     <div class="temoignage">
         <div class="avatar">
-            <img src="../imgs/actualites/avatar-f.jpg" alt="avatar-homme"> <br>
+            <img src="imgs/actualites/avatar-f.jpg" alt="avatar-homme"> <br>
             <p style="margin-left: -13%;">
                 Sexe : Femme <br>
                 Note : 4.5/5 <br>
@@ -71,7 +71,7 @@
 
     <div class="temoignage">
         <div class="avatar">
-            <img src="../imgs/actualites/avatar-h.jpg" alt="avatar-homme"> <br>
+            <img src="imgs/actualites/avatar-h.jpg" alt="avatar-homme"> <br>
             <p style="margin-left: -13%;">
                 Sexe : Homme <br>
                 Note : 4.5/5 <br>
@@ -89,7 +89,7 @@
     <div class="temoignage">
         <div class="avatar">
 
-            <img src="../imgs/actualites/avatar-f.jpg" alt="avatar-femme"> <br>
+            <img src="imgs/actualites/avatar-f.jpg" alt="avatar-femme"> <br>
             <p style="margin-left: -13%;">
                 Sexe : Femme <br>
                 Note : 3.5/5 <br>
@@ -108,7 +108,7 @@
 
     <div class="temoignage">
         <div class="avatar">
-            <img src="../imgs/actualites/avatar-h.jpg" alt="avatar-homme"> <br>
+            <img src="imgs/actualites/avatar-h.jpg" alt="avatar-homme"> <br>
             <p style="margin-left: -13%;">
                 Sexe : Homme <br>
                 Note : 4/5 <br>
@@ -125,4 +125,4 @@
 
 </main>
 <!-- Contenu page spa (fin) -->
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

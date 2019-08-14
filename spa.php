@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 <!-- Contenu page spa (debut) -->
 <main>
 	<div class="prez-spa">
@@ -22,7 +22,7 @@
 			</div>
 			<div class="prestation1">
 				<picture>
-					<img src="../imgs/spa/2.jpg" alt="soin détente">
+					<img src="imgs/spa/2.jpg" alt="soin détente">
 				</picture>
 			</div>
 		</div>
@@ -38,7 +38,7 @@
 			</div>
 			<div class="prestation2">
 				<picture>
-					<img src="../imgs/spa/4.jpg" alt="">
+					<img src="imgs/spa/4.jpg" alt="">
 				</picture>
 			</div>
 		</div>
@@ -54,7 +54,7 @@
 			</div>
 			<div class="prestation1">
 				<picture>
-					<img src="../imgs/spa/5.jpg" alt="soin evasion">
+					<img src="imgs/spa/5.jpg" alt="soin evasion">
 				</picture>
 			</div>
 		</div>
@@ -70,7 +70,7 @@
 			</div>
 			<div class="prestation2">
 				<picture>
-					<img src="../imgs/spa/6.jpg" alt=" soin découverte">
+					<img src="imgs/spa/6.jpg" alt=" soin découverte">
 				</picture>
 			</div>
 		</div>
@@ -86,7 +86,7 @@
 			</div>
 			<div class="prestation1">
 				<picture>
-					<img src="../imgs/spa/8.jpg" alt="soin relaxant">
+					<img src="imgs/spa/8.jpg" alt="soin relaxant">
 				</picture>
 			</div>
 		</div>
@@ -97,4 +97,4 @@
 
 </main>
 <!-- Contenu page spa (fin) -->
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

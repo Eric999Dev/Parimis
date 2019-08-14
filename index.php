@@ -10,21 +10,21 @@ Commandez à notre restaurant des plats raffinés à déguster dans le confort d
     </div>
       <article id="list-items">
 
-        <div class="item-img"><a href="pages/hotel.php" title="page hotel"><img src="imgs/hotel/parimis.jpg" alt="restaurant parimis" title="hotel cinq étoiles"></a></div>
-        <div class="item-img"><a href="pages/restaurant.php" title="page restaurant"><img src="imgs/restaurant/resto1.jpg" alt="restaurant parimis"></a></div>
+        <div class="item-img"><a href="hotel.php" title="page hotel"><img src="imgs/hotel/parimis.jpg" alt="restaurant parimis" title="hotel cinq étoiles"></a></div>
+        <div class="item-img"><a href="restaurant.php" title="page restaurant"><img src="imgs/restaurant/resto1.jpg" alt="restaurant parimis"></a></div>
         <div class="item-img"><a href="pages/spa.php"><img src="imgs/spa/spab.jpg" alt="spa parimis"></a></div>
       </article>
 
         <div class="item-content">
            <div class="content-hotel">
-          <a href="pages/hotel.php" title="page hotel">
+          <a href="hotel.php" title="page hotel">
           <h2>  Hotel Parimis</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt recusandae voluptatibus voluptatem quaerat totam nulla illo quisquam eos cumque, assumenda porro earum commodi quibusdam hic alias reprehenderit minima laborum similique?</p>
         </a>
         </div>
 
             <div class="content-restaurant">
-              <a href="pages/restaurant.php" title="page restaurant">
+              <a href="restaurant.php" title="page restaurant">
               <h2>Restaurant Parimis</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt recusandae voluptatibus voluptatem quaerat totam nulla illo quisquam eos cumque, assumenda porro earum commodi quibusdam hic alias reprehenderit minima laborum similique?</p>
             </a>
@@ -64,11 +64,11 @@ Commandez à notre restaurant des plats raffinés à déguster dans le confort d
      <aside>
     <h2>  Autres gammes de chambres Parimis</h2>
     <div class="liens-divers">
-    <div class="link-classique"><a href="pages/actualites.php" title="lien vers actualités Parimis"><img src="imgs/actualites/entete.jpg" alt="actualité " title="actualité parimis"></a>
+    <div class="link-classique"><a href="actualites.php" title="lien vers actualités Parimis"><img src="imgs/actualites/entete.jpg" alt="actualité " title="actualité parimis"></a>
       <p class="title"> Actualités </p></div>
-    <div class="link-confort"><a href="pages/recrutement.php" title="lien vers recrutement Parimis"><img src="imgs/recrutement/recrutement.jpg" alt="recrutement" title="recrutement parimis"></a>
+    <div class="link-confort"><a href="recrutement.php" title="lien vers recrutement Parimis"><img src="imgs/recrutement/recrutement.jpg" alt="recrutement" title="recrutement parimis"></a>
       <p class="title"> Recrutement </p></div>
-    <div class="link-deluxe"><a href="pages/evenements.php" title="lien vers evenements Parimis"><img src="imgs/evenements/mariage.jpg" alt="evenements" title="evenements parimis"></a>
+    <div class="link-deluxe"><a href="evenements.php" title="lien vers evenements Parimis"><img src="imgs/evenements/mariage.jpg" alt="evenements" title="evenements parimis"></a>
       <p class="title"> Evenements </p></div>
     </div>
     </aside>

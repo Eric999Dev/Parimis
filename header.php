@@ -26,11 +26,11 @@ require_once('libs/var.php');
 		<!-- header responsive (debut) -->
 		<header>
 			<div class="header">
-				<a href="<?php echo home ;?>" class="logo"><img src="imgs/logo/logoParimis7.png" alt="logoParimis" class="logo"></a>
+				<a href="" class="logo"><img src="imgs/logo/logoParimis7.png" alt="logoParimis" class="logo"></a>
 				<div class="header-right">
-					<a class="active" href="pages/reservation.php">Reservation</a>
-					<a class="link" href="pages/contact.php">Contact</a>
-					<a class="link" href="pages/acces.php">Acces</a>
+					<a class="active" href="reservation.php">Reservation</a>
+					<a class="link" href="contact.php">Contact</a>
+					<a class="link" href="acces.php">Acces</a>
 					<a href="#"><img src="imgs/icones/france.png" alt="drapeau france"></a>
 					<a href="#"><img src="imgs/icones/uk.png" alt="drapeau grande-bretagne"></a> <br> <br>
 					<input type="search" placeholder="Recherche dans le site">
@@ -55,43 +55,43 @@ require_once('libs/var.php');
 			<div id="navigation">
 				<nav class="nav" id="sticker">
 					<ul id="list-menu">
-						<li><a href="pages/hotel.php">Hotel</a>a&
+						<li><a href="hotel.php">Hotel</a>
 							<ul>
-								<li><a href="pages/hotel.php">Qui sommes-nous?</a></li>
-								<li><a href="pages/acces.php">Accès</a></li>
-								<li><a href="pages/contact.php">Contact</a></li>
-								<li><a href="pages/recrutement.php">Recrutement</a></li>
-								<li><a href="pages/evenements.php">Evenements</a></li>
-								<li><a href="pages/presse.php">Presse</a></li>
+								<li><a href="hotel.php">Qui sommes-nous?</a></li>
+								<li><a href="acces.php">Accès</a></li>
+								<li><a href="contact.php">Contact</a></li>
+								<li><a href="recrutement.php">Recrutement</a></li>
+								<li><a href="evenements.php">Evenements</a></li>
+								<li><a href="presse.php">Presse</a></li>
 							</ul>
 						</li>
-						<li><a href="pages/chambres.php">Chambres</a>
+						<li><a href="chambres.php">Chambres</a>
 							<ul>
-								<li><a href="pages/chambre-classique.php">Classique</a></li>
-								<li><a href="pages/chambre-confort.php">Confort</a></li>
-								<li><a href="pages/chambre-deluxe.php">Deluxe</a></li>
-								<li><a href="pages/chambre-suite.php">Suite</a></li>
+								<li><a href="chambre-classique.php">Classique</a></li>
+								<li><a href="chambre-confort.php">Confort</a></li>
+								<li><a href="chambre-deluxe.php">Deluxe</a></li>
+								<li><a href="chambre-suite.php">Suite</a></li>
 							</ul>
 						</li>
-						<li><a href="pages/restaurant.php">Restaurant</a>
+						<li><a href="restaurant.php">Restaurant</a>
 							<ul>
-								<li><a href="pages/restaurant.php">Carte Brasserie</a></li>
-								<li><a href="pages/restaurant.php">Carte Dégustation</a></li>
-								<li><a href="pages/restaurant.php">Carte Restaurant</a></li>
+								<li><a href="restaurant.php">Carte Brasserie</a></li>
+								<li><a href="restaurant.php">Carte Dégustation</a></li>
+								<li><a href="restaurant.php">Carte Restaurant</a></li>
 							</ul>
 						</li>
-						<li><a href="pages/spa.php">Spa</a>
+						<li><a href="spa.php">Spa</a>
 							<ul>
-								<li><a href="pages/spa.php">Soin Détente</a></li>
-								<li><a href="pages/spa.php">Soin Découverte</a></li>
-								<li><a href="pages/spa.php">Soin Relaxant</a></li>
-								<li><a href="pages/spa.php">Soin Plaisir</a></li>
-								<li><a href="pages/spa.php">Soin Evasion</a></li>
+								<li><a href="spa.php">Soin Détente</a></li>
+								<li><a href="spa.php">Soin Découverte</a></li>
+								<li><a href="spa.php">Soin Relaxant</a></li>
+								<li><a href="spa.php">Soin Plaisir</a></li>
+								<li><a href="spa.php">Soin Evasion</a></li>
 							</ul>
 						</li>
 
-						<li><a href="pages/actualites.php">Actualités</a></li>
-						<li><a href="pages/avis.php">Avis</a></li>
+						<li><a href="actualites.php">Actualités</a></li>
+						<li><a href="avis.php">Avis</a></li>
 					</ul>
 
 				</nav>

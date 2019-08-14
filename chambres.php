@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 <!-- Contenu page Chambres (debut) -->
 <main id="chambres">
     <div class="prez-chambre">
@@ -14,22 +14,22 @@
         <div class="main">
             <section class="page1">
                 <div class="page_container">
-                    <h1><a href="chambre-classique.html">Chambre Classique<br><small></small></a></h1>
+                    <h1><a href="chambre-classique.php">Chambre Classique<br><small></small></a></h1>
                 </div>
             </section>
             <section class="page2">
                 <div class="page_container">
-                    <h1><a href="chambre-confort.html">Chambre Confort<br><small></small></a></h1>
+                    <h1><a href="chambre-confort.php">Chambre Confort<br><small></small></a></h1>
                 </div>
             </section>
             <section class="page3">
                 <div class="page_container">
-                    <h1><a href="chambre-deluxe.html">Chambre Deluxe<br><small></small></a></h1>
+                    <h1><a href="chambre-deluxe.php">Chambre Deluxe<br><small></small></a></h1>
                 </div>
             </section>
             <section class="page4">
                 <div class="page_container">
-                    <h1><a href="chambre-suite.html">Chambre Suite<br><small></small></a></h1>
+                    <h1><a href="chambre-suite.php">Chambre Suite<br><small></small></a></h1>
                 </div>
             </section>
         </div>
@@ -37,4 +37,4 @@
     </div>
 
 </main>
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

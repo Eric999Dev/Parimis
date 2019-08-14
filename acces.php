@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 
 <main class="trajet">
     <h1>Itineraire vers Parimis</h1>
@@ -20,4 +20,4 @@
 
 
 </main>
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

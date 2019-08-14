@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 <!-- Contenu page contact (debut) -->
 <main>
     <div id="formulaire">
@@ -41,4 +41,4 @@
 
 </main>
 <!-- Contenu page contact (fin) -->
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

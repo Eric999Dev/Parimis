@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 <!-- Contenu page restaurant (debut) -->
 <main id="restaurant">
 
@@ -8,7 +8,7 @@
 		<p>
 			Venez déguster nos plats exceptionnels dans un cadre de rêve. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus tincidunt eros, auctor imperdiet nisl feugiat in. Morbi ultrices interdum augue. Sed placerat lorem ut dictum consectetur. Integer gravida ipsum ac urna blandit, dapibus ornare ligula tempus. Suspendisse luctus mollis suscipit. Maecenas tempor, mi nec pharetra eleifend, magna turpis rhoncus augue, vel mattis velit risus vitae nulla. Morbi turpis eros, gravida vitae felis non, ornare interdum massa.
 			Maecenas tempor, mi nec pharetra eleifend, magna turpis rhoncus augue, vel mattis velit risus vitae nulla. Morbi turpis eros, gravida vitae felis non, ornare interdum massa.
-			<br> <input type=button onclick="window.location.href='avis.html'" class="download" value="Avis" />
+			<br> <input type=button onclick="window.location.href='avis.php'" class="download" value="Avis" />
 		</p>
 	</div>
 
@@ -30,12 +30,12 @@
 				Tarte tatin, crème double <br> Prix : 20€ <br>
 
 
-				<input type=button onclick="window.location.href='reservation.html'" class="download" value="Reservez" />
+				<input type=button onclick="window.location.href='reservation.php'" class="download" value="Reservez" />
 
 			</div>
 			<div class="plat1">
 				<picture>
-					<img src="../imgs/restaurant/plat1.jpg" alt="plat1">
+					<img src="imgs/restaurant/plat1.jpg" alt="plat1">
 				</picture>
 			</div>
 		</div>
@@ -55,12 +55,12 @@
 
 				Saint-Honoré à la chiboust au Meurice <br> Prix : 18€ <br>
 
-				<input type=button onclick="window.location.href='reservation.html'" class="download" value="Reservez" />
+				<input type=button onclick="window.location.href='reservation.php'" class="download" value="Reservez" />
 
 			</div>
 			<div class="plat2">
 				<picture>
-					<img src="../imgs/restaurant/plat2.jpg" alt="plat2">
+					<img src="imgs/restaurant/plat2.jpg" alt="plat2">
 				</picture>
 			</div>
 		</div>
@@ -80,11 +80,11 @@
 				<h3> Dessert</h3>
 
 				Île flottante moka-caramel lacté à l’Arpège <br> Prix : 34€ <br>
-				<input type=button onclick="window.location.href='reservation.html'" class="download" value="Reservez" />
+				<input type=button onclick="window.location.href='reservation.php'" class="download" value="Reservez" />
 			</div>
 			<div class="plat1">
 				<picture>
-					<img src="../imgs/restaurant/plat3.jpg" alt="plat3">
+					<img src="imgs/restaurant/plat3.jpg" alt="plat3">
 				</picture>
 			</div>
 		</div>
@@ -103,7 +103,7 @@
 				<br>
 
 
-				<input type=button onclick="window.location.href='reservation.html'" class="download" value="Reservez" />
+				<input type=button onclick="window.location.href='reservation.php'" class="download" value="Reservez" />
 
 			</div>
 			<div class="plat2">
@@ -114,4 +114,4 @@
 
 </main>
 <!-- Contenu page restaurant (fin) -->
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

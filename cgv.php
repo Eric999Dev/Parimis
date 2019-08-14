@@ -1,4 +1,4 @@
-<?php require_once('./header.php');?>
+<?php require_once('header.php');?>
 
     <main class="cgv">
       <h1>Conditions générales de vente</h1>
@@ -91,4 +91,4 @@ Utilisateur : Internaute se connectant, utilisant le site susnommé.
 Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).
     </main>
 
- <?php require_once('./footer.php');?>
+ <?php require_once('footer.php');?>

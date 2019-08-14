@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 <!-- Contenu page Chambres (debut) -->
 <main id="bedroom">
     <h1> Chambre suite</h1>
@@ -28,7 +28,7 @@
                 <li>Jardin/Cour intérieure/living-room</li>
                 <li>À partir de EUR 1500</li>
             </ul>
-            <button onclick="window.location.href='reservation.html'">Reservez</button>
+            <button onclick="window.location.href='reservation.php'">Reservez</button>
         </div>
     </div>
 
@@ -37,17 +37,17 @@
 
         <div class="flexslider">
             <ul class="slides">
-                <li data-thumb="../imgs/chambres/suite/slide/1.jpg">
-                    <img src="../imgs/chambres/suite/slide/1.jpg" alt="chambre suite" />
+                <li data-thumb="imgs/chambres/suite/slide/1.jpg">
+                    <img src="imgs/chambres/suite/slide/1.jpg" alt="chambre suite" />
                 </li>
-                <li data-thumb="../imgs/chambres/suite/slide/2.jpg">
-                    <img src="../imgs/chambres/suite/slide/2.jpg" alt="sdb suite " />
+                <li data-thumb="imgs/chambres/suite/slide/2.jpg">
+                    <img src="imgs/chambres/suite/slide/2.jpg" alt="sdb suite " />
                 </li>
-                <li data-thumb="../imgs/chambres/suite/slide/3.jpg">
-                    <img src="../imgs/chambres/suite/slide/3.jpg" alt="salon suite" />
+                <li data-thumb="imgs/chambres/suite/slide/3.jpg">
+                    <img src="imgs/chambres/suite/slide/3.jpg" alt="salon suite" />
                 </li>
-                <li data-thumb="../imgs/chambres/suite/slide/4.jpg">
-                    <img src="../imgs/chambres/suite/slide/4.jpg" alt="petit-dej suite" />
+                <li data-thumb="imgs/chambres/suite/slide/4.jpg">
+                    <img src="imgs/chambres/suite/slide/4.jpg" alt="petit-dej suite" />
                 </li>
             </ul>
         </div>
@@ -59,13 +59,13 @@
 
         <div class="liens-chambres">
             <div class="link-classique">
-                <a href="chambre-classique.html" title="lien vers classique Parimis"><img src="../imgs/chambres/classique/vignette.jpg" alt="chambre classique" title="classique parimis"></a>
+                <a href="chambre-classique.php" title="lien vers classique Parimis"><img src="imgs/chambres/classique/vignette.jpg" alt="chambre classique" title="classique parimis"></a>
                 <p class="title"> Chambre Classique </p>
             </div>
-            <div class="link-confort"><a href="chambre-confort.html" title="lien vers confort Parimis"> <img src="../imgs/chambres/confort/vignette.jpg" alt="chambre confort" title="confort parimis"></a>
+            <div class="link-confort"><a href="chambre-confort.php" title="lien vers confort Parimis"> <img src="imgs/chambres/confort/vignette.jpg" alt="chambre confort" title="confort parimis"></a>
                 <p class="title"> Chambre Confort </p>
             </div>
-            <div class="link-deluxe"><a href="chambre-deluxe.html" title="lien vers deluxe Parimis"><img src="../imgs/chambres/deluxe/vignette.jpg" alt="chambre deluxe" title="deluxe parimis"></a>
+            <div class="link-deluxe"><a href="chambre-deluxe.php" title="lien vers deluxe Parimis"><img src="imgs/chambres/deluxe/vignette.jpg" alt="chambre deluxe" title="deluxe parimis"></a>
                 <p class="title"> Chambre Deluxe </p>
             </div>
         </div>
@@ -75,4 +75,4 @@
 
 </main>
 <!-- Contenu page Chambre classique (fin) -->
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

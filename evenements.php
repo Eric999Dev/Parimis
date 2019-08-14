@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 <!-- Contenu page Evenements (debut) -->
 <main id="restaurant">
 
@@ -8,7 +8,7 @@
         <p>
             Venez déguster nos plats exceptionnels dans un cadre de rêve. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus tincidunt eros, auctor imperdiet nisl feugiat in. Morbi ultrices interdum augue. Sed placerat lorem ut dictum consectetur. Integer gravida ipsum ac urna blandit, dapibus ornare ligula tempus. Suspendisse luctus mollis suscipit. Maecenas tempor, mi nec pharetra eleifend, magna turpis rhoncus augue, vel mattis velit risus vitae nulla. Morbi turpis eros, gravida vitae felis non, ornare interdum massa.
             Maecenas tempor, mi nec pharetra eleifend, magna turpis rhoncus augue, vel mattis velit risus vitae nulla. Morbi turpis eros, gravida vitae felis non, ornare interdum massa.
-            <br> <input type=button onclick="window.location.href='avis.html'" class="download" value="Avis" />
+            <br> <input type=button onclick="window.location.href='avis.php'" class="download" value="Avis" />
         </p>
     </div>
 
@@ -20,7 +20,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nobis molestiae odit, reiciendis. Asperiores ipsa sed eveniet et harum, ipsum voluptate facilis totam neque obcaecati odit culpa consectetur commodi quisquam.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nobis molestiae odit, reiciendis. Asperiores ipsa sed eveniet et harum, ipsum voluptate facilis totam neque obcaecati odit culpa consectetur commodi quisquam.
 
-                <br><input type=button onclick="window.location.href='reservation.html'" class="download" value="Reservez" />
+                <br><input type=button onclick="window.location.href='reservation.php'" class="download" value="Reservez" />
 
             </div>
             <div class="mariage">
@@ -35,7 +35,7 @@
 
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, et, voluptatum ipsam exercitationem ullam eligendi quos, facere praesentium tenetur, non nihil. Cum dolor repellat deleniti, placeat consequatur iure officiis unde. <br>
 
-                <input type=button onclick="window.location.href='reservation.html'" class="download" value="Reservez" />
+                <input type=button onclick="window.location.href='reservation.php'" class="download" value="Reservez" />
 
             </div>
             <div class="defile">
@@ -53,7 +53,7 @@
                 <br>
 
 
-                <input type=button onclick="window.location.href='reservation.html'" class="download" value="Reservez" />
+                <input type=button onclick="window.location.href='reservation.php'" class="download" value="Reservez" />
 
             </div>
             <div class="mariage">
@@ -77,7 +77,7 @@
                 <br>
 
 
-                <input type=button onclick="window.location.href='reservation.html'" class="download" value="Reservez" />
+                <input type=button onclick="window.location.href='reservation.php'" class="download" value="Reservez" />
 
             </div>
             <div class="event-bis">
@@ -88,4 +88,4 @@
 
 </main>
 <!-- Contenu page Evenements (fin) -->
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>

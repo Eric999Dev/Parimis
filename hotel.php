@@ -1,4 +1,4 @@
-<?php require_once("../header.php");?>
+<?php require_once("header.php");?>
 <!-- Contenu page restaurant (debut) -->
 <main id="hotel">
 
@@ -132,4 +132,4 @@
 
 </main>
 <!-- Contenu page restaurant (fin) -->
-<?php require_once("../footer.php");?>
+<?php require_once("footer.php");?>
