@@ -1,0 +1,1691 @@
+body {
+    font-family: 'Krub', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#chambres {
+    font-family: corbel, sans-serif;
+    font-size: 0.9em;
+    background: #D6D5CF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    /* min-height:100vh; */
+    /*display:flex;
+	flex-direction: column;*/
+}
+
+/* **************************(debut) Header bar responsive************ */
+.header {
+    overflow: hidden;
+    /* background-color: #f1f1f1; */
+    background: #47413A;
+    padding: 10px 10px;
+
+}
+
+.header a {
+    float: left;
+    /* color: black; */
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    /* border-radius: 4px; */
+}
+
+.header-right input {
+    margin-left: 190px;
+    margin-top: 50px;
+}
+
+
+.logo {
+    height: 100px;
+}
+
+.header a.active {
+    background-color: #C39122;
+    color: white;
+}
+
+.link:hover {
+    color: #C39122;
+}
+
+.header-right {
+    float: right;
+}
+
+/* **************************(fin) Header bar responsive************ */
+
+/***************************(fin) Slider**********************  */
+/*! http://responsiveslides.com v1.55 by @viljamis */
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    height: 40vh;
+    border: 0;
+}
+
+/***************************(fin) Slider**********************  */
+
+
+/***********************************(début) Menu Responsive**************************/
+#mobile-header {
+    display: none;
+}
+
+#mobile-header a {
+    color: #000;
+    font-size: 2.5em;
+}
+
+nav {
+    height: 6vh;
+    background: rgb(14, 13, 13);
+}
+
+.nav {
+    position: sticky;
+    top: 0px;
+    z-index: 99999999999;
+    background: #47413A;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul#list-menu li {
+    display: block;
+    width: 100%;
+    height: 58px;
+    text-align: center;
+    /* margin:0vh 0vh; */
+
+}
+
+ul#list-menu li a {
+    display: block;
+    width: 100%;
+    /* pour centrer verticalement */
+    height: 58px;
+    line-height: 50px;
+    vertical-align: middle;
+    /* margin:0vh 0vh; */
+    color: white;
+    background-color: #47413A;
+    font-family: corbel;
+    font-size: 16px;
+    font-weight: bold;
+    .
+}
+
+ul#list-menu li a:hover {
+    background-color: #c39122;
+}
+
+/* Sous menu */
+
+.nav ul li ul {
+    display: none;
+}
+
+.nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    width: 138px;
+    font-size: 10px;
+
+}
+
+.nav ul li ul li a {
+    display: block;
+    padding: 0 15px;
+    text-align: center;
+    background: #47413A;
+}
+
+
+.nav ul li ul li a:hover {
+    background: #C39122;
+    color: #fff !important;
+
+
+}
+
+/**(fin) sous menu*/
+
+
+
+
+/***********************************(fin) Menu Responsive**************************/
+
+
+/**********************(debut) Contenu page index***********/
+#index {
+    width: 100%;
+    min-height: 50vh;
+    margin: 0 auto;
+    /* flex-grow:1; */
+    /* padding:10% 0; */
+}
+
+.hidden {
+    background-color: #fff;
+    text-align: center;
+    font-size: 1em;
+    display: none;
+}
+
+#index h1 {
+    background-color: #947E67;
+    text-align: center;
+}
+
+#index h2 {
+    text-align: center;
+    background-color: #947E67;
+}
+
+
+
+#list-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item-img {
+    width: 32.3%;
+    padding: 0 5px;
+    height: auto;
+    background: #D6D5CF;
+    text-align: center;
+    /* position: relative; */
+
+}
+
+.item-img img {
+    width: 100%;
+    height: auto;
+}
+
+/****Filtre noir et blanc (debut)****/
+.item-img img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    transition: 0.8s ease;
+}
+
+.item-img img:hover {
+
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+/****Filtre noir et blanc (fin)****/
+.item-content {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.item-content a {
+    color: #47413A;
+}
+
+.item-content div {
+    width: 32.3%;
+    padding: 0 5px;
+    height: 30vh;
+    text-align: center;
+    position: relative;
+    bottom: 60vh;
+    background-color: rgba(245, 245, 245, 0.57);
+}
+
+#intineraire {
+    margin-top: -30vh;
+    margin-bottom: 11vh;
+    display: flex;
+    height: 40vh;
+    width: 100%;
+
+}
+
+.plan-acces {
+    width: 50%;
+    background: rgba(163, 163, 159, 0.5);
+    max-height: 50vh;
+}
+
+.plan-acces iframe {
+    width: 100%;
+    height: 50vh;
+}
+
+.adresse {
+    width: 50%;
+    background: #47413A;
+    height: 50vh;
+    text-align: center;
+    color: #fff;
+    /*! padding-top: 95px; */
+}
+
+iframe {
+    width: 49%;
+    height: 30vh;
+}
+
+aside {
+    margin: 20px 0;
+}
+
+aside h2 {
+    background-color: #47413A;
+    border: 1px solid #C39122;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.liens-divers {
+    display: flex;
+    width: 100%;
+}
+
+.liens-divers div {
+    margin: 15px 1px;
+    width: 34%;
+}
+
+.liens-divers div img {
+    height: 200px;
+    width: 100%;
+}
+
+
+.title {
+    text-align: center;
+    color: #fff;
+    border: 1px solid #C39122;
+    background: #47413A;
+}
+
+
+
+/**********************(fin) Contenu page index***********/
+/**************************Page hotel (debut)*******************/
+
+#hotel {
+
+    color: #fff;
+}
+
+
+
+#prez-hotel {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1%;
+    background: #947E67;
+    text-align: justify;
+}
+
+
+
+#prez-hotel h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#prez-hotel h2 {
+    text-decoration: underline;
+
+}
+
+
+#prez-hotel input {
+    margin-left: 50%;
+    margin-top: 5%;
+    width: 5%;
+}
+
+#historique {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+#nuit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+
+}
+
+#nuit .room-class {
+    width: 49.5%;
+    border: 1px solid #fff;
+    height: 40vh;
+    background-image: url('../imgs/chambres/classique/vignette.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nuit .room-conf {
+    width: 49.5%;
+    border: 1px solid #fff;
+    height: 40vh;
+    background-image: url('../imgs/chambres/confort/vignette.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nuit .room-del {
+    width: 49.5%;
+    border: 1px solid #fff;
+    height: 40vh;
+    background-image: url('../imgs/chambres/deluxe/vignette.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nuit .room-suite {
+    width: 49.5%;
+    border: 1px solid #fff;
+    height: 40vh;
+    background-image: url('../imgs/chambres/suite/vignette.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.room {
+    background-color: #47413A;
+    color: #fff;
+    text-align: center;
+}
+
+#nuit p {
+    text-align: center;
+    line-height: 40vh;
+}
+
+#nuit p a {
+    background-color: #47413A;
+    color: #fff;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+
+#nuit p a:hover {
+    background-color: #C39122;
+}
+
+
+#historique h3,
+#historique h2 {
+    text-decoration: underline;
+    margin: 3% 0;
+}
+
+
+
+.rubrique1 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    margin: 10px 0;
+}
+
+.rubrique2 {
+    display: flex;
+    height: 400px;
+    margin: 10px 0;
+}
+
+.rubrique3 {
+    display: flex;
+    height: 400px;
+    margin: 10px 0;
+}
+
+
+
+.histo-texte1 {
+    width: 30%;
+    padding-top: 5px;
+    margin-left: 1%;
+    background: #947E67;
+}
+
+.hall-hotel {
+    width: 70%;
+}
+
+.hall-hotel img {
+    height: 400px;
+    width: 100%;
+}
+
+.histo-texte2 {
+    width: 50%;
+    padding-top: 5px;
+
+    background: #947E67;
+    text-align: center;
+}
+
+.histo-texte3 {
+    width: 30%;
+    padding-top: 5px;
+    margin-right: 1%;
+    background: #947E67;
+    text-align: center;
+}
+
+.plat3 {
+    width: 70%;
+    height: 400px;
+}
+
+.plat3 iframe {
+    width: 100%;
+    height: 400px;
+}
+
+
+.interieur-hotel {
+    width: 50%;
+}
+
+
+.interieur-hotel img {
+    height: 400px;
+    width: 100%;
+}
+
+
+.interieur-hotel iframe {
+    height: 400px;
+    width: 100%;
+}
+
+.rubrique1,
+.rubrique2 {
+    text-align: center;
+}
+
+#historique input {
+    margin-top: 5%;
+    width: 30%;
+
+}
+
+
+/***************************Page hotel (fin*********************/
+/**********************(debut) Contenu page chambre*****  */
+.entete {
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+#bedroom h1 {
+    text-decoration: underline;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0;
+}
+
+.bedroom-title {
+    margin: 7vh 0;
+}
+
+.all-chambre {
+    padding: 20px 0;
+    background: #47413A;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#chambres .prez-chambre h2 {
+    text-align: left;
+    display: block;
+    margin-bottom: 2vh;
+}
+
+#chambres .prez-chambre {
+    margin: 3vh auto;
+    /*! padding: 0; */
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.prez-chambre {
+    width: 100%;
+    background: #47413A;
+    color: #ffffff;
+    display: flex;
+    padding: 1% 0;
+    text-align: justify;
+}
+
+.prez-chambre h1 {
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+.prez-chambre .description {
+    font-size: 0.9em;
+    width: 50%;
+    text-align: center;
+}
+
+.prez-chambre .description ul {
+    width: 50%;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.prez-chambre .cout {
+    font-size: 0.9em;
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #C39122;
+    text-align: center;
+}
+
+.prez-chambre .cout ul {
+    list-style: none;
+    color: #47413A;
+}
+
+
+button {
+    width: 70px;
+    height: 25px;
+}
+
+#chambres {
+    background: #D7CDC3;
+    margin-bottom: 30px;
+}
+
+/*******debut scroll animation******  */
+
+/*
+html{
+  height: 100%;
+} */
+
+
+
+#chambres {
+    background: #F1f1f2;
+    text-align: center;
+    font-family: 'open sans';
+    position: relative;
+    min-height: 100vh;
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.pointer {
+    color: #00B0FF;
+    font-family: 'Pacifico';
+    font-size: 24px;
+    margin-top: 15px;
+    position: absolute;
+    top: 130px;
+    right: -40px;
+}
+
+.pointer2 {
+    color: #00B0FF;
+    font-family: 'Pacifico';
+    font-size: 24px;
+    margin-top: 15px;
+    position: absolute;
+    top: 130px;
+    left: -40px;
+}
+
+pre {
+    margin: 80px auto;
+}
+
+pre code {
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border: rgba(0, 0, 0, 0.05) 5px solid;
+    max-width: 500px;
+}
+
+
+.main {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.main h1 {
+    padding: 20px 50px 10px;
+    float: left;
+    width: 100%;
+    font-size: 60px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 55px;
+    font-family: 'Open Sans';
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.reload.bell {
+    font-size: 12px;
+    padding: 20px;
+    width: 45px;
+    text-align: center;
+    height: 47px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+}
+
+
+/* .main {
+margin-bottom: 0px;
+overflow: hidden;
+} */
+
+.tps-section {
+    width: 100% !important;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.tps-section .tps-wrapper {
+    border-radius: 10px;
+}
+
+.tps-section .tps-wrapper h1 {
+    position: relative;
+    height: 100%;
+    position: absolute;
+}
+
+.tps-section .tps-wrapper h1 a {
+    color: white;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding-top: 225px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    left: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-size: 14px;
+    line-height: 190%;
+}
+
+.tps-section .tps-wrapper h1 a small {
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    font-family: noto serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.tps-section:nth-child(1n+1) .tps-wrapper {
+    background: url(../imgs/chambres/confort/1.jpg) center center;
+    background-size: cover;
+
+}
+
+.tps-section:nth-child(2n+1) .tps-wrapper {
+    background: url(../imgs/chambres/deluxe/1.jpg) center center;
+    background-size: cover;
+
+}
+
+.tps-section:nth-child(3n+1) .tps-wrapper {
+    background: url(../imgs/chambres/suite/1bis.jpg) center center;
+    background-size: cover;
+
+}
+
+.tps-section:nth-child(4n+1) .tps-wrapper {
+    background: url(../imgs/chambres/classique/classique.jpg) center center;
+    background-size: cover;
+}
+
+/* .header {
+overflow: hidden;
+clear: both;
+} */
+
+.tps-section {
+    width: 100%;
+    height: 500px;
+    -webkit-perspective: 10em;
+    -moz-perspective: 10em;
+    -ms-perspective: 10em;
+    -o-perspective: 10em;
+    perspective: 10em;
+    -webkit-perspective-origin: center bottom;
+    -moz-perspective-origin: center bottom;
+    -ms-perspective-origin: center bottom;
+    -o-perspective-origin: center bottom;
+    perspective-origin: center bottom;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+.tps-wrapper {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+/*******fin scroll animation******  */
+
+
+/**********************(fin) Contenu page chambres*****  */
+/***********************(debut) Contenu page chambre classique************/
+#bedroom {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+#bedroom h1 {
+    margin-top: 5vh;
+}
+
+
+/* .cc{
+  display: flex;
+  max-height: auto;
+  width: 100%;
+  border: 1px solid black;
+
+} */
+/******************* Debut flexslider chambre classique****/
+.flexslider {
+    width: 100%;
+    margin: 5vh auto;
+}
+
+
+/******************* fin flexslider chambre classique****/
+aside {
+    /*! margin-top: 5% 0; */
+}
+
+aside h2 {
+    background-color: #47413A;
+    border: 1px solid #C39122;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.liens-chambres {
+    display: flex;
+    width: 100%;
+}
+
+.liens-chambres div {
+    margin: 20px 5px;
+    width: 34%;
+}
+
+.liens-chambres div img {
+    height: 200px;
+    width: 100%;
+}
+
+.liens-chambres div img {
+    filter: sepia(1);
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -o-filter: sepia(1);
+    -ms-filter: sepia(1);
+}
+
+.liens-chambres div img:hover {
+    filter: sepia(0);
+    -webkit-filter: sepia(0);
+    -moz-filter: sepia(0);
+    -o-filter: sepia(0);
+    -ms-filter: sepia(0);
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    border: 1px solid #C39122;
+    background: #47413A;
+}
+
+
+/**********************Page spa (début)***********************/
+.prez-spa {
+    width: 100%;
+    /*! border: 1px solid black; */
+    padding: 3% 0;
+    background: #828E82;
+    color: #fff;
+    width: 100%;
+}
+
+.prez-spa h1 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prez-spa input {
+    width: 15%;
+    margin: 0 auto;
+    display: block;
+}
+
+#soins {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+
+}
+
+.soins1 {
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: row-reverse;
+    height: 300px;
+    margin: 1vh 0;
+}
+
+.soins2 {
+    /* border: 1px solid #000; */
+    display: flex;
+    height: 300px;
+    margin: 1vh 0;
+}
+
+
+.descriptif1 {
+    width: 30%;
+    padding: 2%;
+    margin-left: 0.5vw;
+    text-align: center;
+    background: #828E82;
+    color: #fff;
+}
+
+.descriptif1 h3 {
+    text-decoration: underline;
+    margin-bottom: 10%;
+}
+
+.descriptif2 h3 {
+    text-decoration: underline;
+    margin-bottom: 10%;
+}
+
+.prestation1 {
+    width: 70%;
+}
+
+.prestation1 img {
+    height: 300px;
+    width: 100%;
+}
+
+.descriptif2 {
+    width: 30%;
+    text-align: center;
+    margin-right: 0.5vw;
+    padding: 2%;
+
+    background: #828E82;
+    color: #fff;
+}
+
+.prestation2 {
+    width: 70%;
+}
+
+.prestation2 img {
+    height: 300px;
+    width: 100%;
+}
+
+/**********************Page spa (fin)***********************/
+/*********************Page restaurant (debut)****************/
+#restaurant {
+
+    color: #ffffff;
+}
+
+#restaurant h1 {
+    margin-top: 30px;
+}
+
+#prez-restaurant {
+
+    padding: 1%;
+    background: #947E67;
+    text-align: justify;
+}
+
+#prez-restaurant input {
+    /*margin-left: 50%;*/
+    margin-top: 5%;
+    width: 5%;
+}
+
+#menu-resto {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+#menu-resto h3,
+#menu-resto h2 {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 3% 0;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    margin: 0.5vh 0;
+}
+
+.menu2 {
+    display: flex;
+    height: 400px;
+    margin: 0.5vh 0;
+}
+
+.carte1 {
+    width: 30%;
+    padding-top: 5px;
+    margin-left: 0.5%;
+    background: #947E67;
+}
+
+.carte1 input {
+    width: 20%;
+}
+
+.plat1 {
+    width: 70%;
+}
+
+.plat1 img {
+    height: 400px;
+    width: 100%;
+}
+
+.carte2 {
+    width: 30%;
+    padding-top: 5px;
+    margin-right: 0.5%;
+    background: #947E67;
+
+}
+
+.plat2 {
+    width: 70%;
+}
+
+.plat2 img {
+    height: 400px;
+    width: 100%;
+}
+
+.plat2 iframe {
+    height: 400px;
+    width: 100%;
+}
+
+.menu1,
+.menu2 {
+    text-align: center;
+}
+
+#menu-resto input {
+    margin-top: 5%;
+    width: 30%;
+
+}
+
+.download {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+/*********************Page restaurant (fin)****************/
+/**********************Page reservation (debut)********************/
+
+/**********************Page reservation (Fin)********************/
+
+/**********************Page contact (debut)********************/
+
+#formulaire h1 {
+    margin: 2vh 0;
+    text-align: center;
+}
+
+#formulaire form {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh auto;
+    border: 1px solid #C39122;
+    text-align: center;
+}
+
+#formulaire input {
+    width: 15%;
+    border: 1px solid #C39122;
+    margin: 10px auto;
+}
+
+#formulaire select {
+    width: 20%;
+    border: 1px solid #C39122;
+    margin: 10px auto;
+}
+
+
+
+#formulaire textarea {
+    width: 80%;
+
+    margin: 10px auto;
+    border: 1px solid #C39122;
+}
+
+
+#formulaire button {
+    margin: 10px auto;
+    width: 15%;
+}
+
+
+
+
+
+/**********************Page contact(Fin)********************/
+
+/**********************Page acces (debut)********************/
+.trajet {
+
+    border: 1px solid #C39122;
+    padding: 10px 0;
+}
+
+.trajet h1 {
+
+    margin: 2vh 0;
+    text-align: center;
+}
+
+#acces {
+    display: flex;
+    width: 100%;
+    color: #fff;
+}
+
+#acces h2 {
+    color: #FFF;
+
+}
+
+.descriptif-plan {
+    margin: 10% 1%;
+    border: 1px solid #C39122;
+    width: 29%;
+    /*  height: 300px;*/
+    background-color: #47413A;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.descriptif-plan h2 {
+
+    margin: 10% 0;
+}
+
+
+.plan {
+    width: 70%;
+    height: 500px;
+    margin: 10% 1%;
+    border: 1px solid #C39122;
+}
+
+.plan iframe {
+    width: 100%;
+    height: 500px;
+}
+
+/**********************Page acces (Fin)********************/
+/**********************Page Evenement (debut)********************/
+#restaurant {
+    /* background: #f6f2ed; */
+    color: #ffffff;
+}
+
+#prez-evenement {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1%;
+    background: #947E67;
+    text-align: justify;
+}
+
+
+
+#prez-evenement input {
+    margin-left: 50%;
+    margin-top: 5%;
+    width: 5%;
+}
+
+#events {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+#events h3,
+#events h2 {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 3% 0;
+}
+
+.event1 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    margin: 10px 0;
+}
+
+.event2 {
+    display: flex;
+    height: 400px;
+    margin: 10px 0;
+}
+
+.adresse-event {
+    display: flex;
+    height: 400px;
+    margin: 10px 0;
+}
+
+.mariage-event {
+    width: 30%;
+    padding-top: 5px;
+    margin-left: 1%;
+    background: #947E67;
+}
+
+.mariage {
+    width: 70%;
+}
+
+.mariage iframe {
+    height: 400px;
+    width: 100%;
+}
+
+.defile-event {
+    width: 30%;
+    padding-top: 5px;
+    margin-right: 1%;
+    background: #947E67;
+
+}
+
+.adresse-event {
+    height: 400px;
+    margin: 10px 0;
+    width: 100%
+}
+
+.location-event {
+    width: 30%;
+    padding-top: 5px;
+    margin-right: 1%;
+    background: #947E67;
+    text-align: center;
+}
+
+.event-bis {
+    width: 70%;
+}
+
+.pevent-bis img {
+    height: 400px;
+    width: 100%;
+}
+
+.event-bis iframe {
+    height: 400px;
+    width: 100%;
+}
+
+.defile {
+    width: 70%;
+}
+
+.defile iframe {
+    height: 400px;
+    width: 100%;
+}
+
+.mariage-event,
+.defile-event {
+    text-align: center;
+}
+
+#events input {
+    margin-top: 5%;
+    width: 30%;
+}
+
+.download {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    width: 25%;
+}
+
+
+/**********************Page Evenement (Fin)********************/
+/*********************Page Avis (debut)*************************/
+
+.prez-avis {
+    width: 100%;
+    border: 1px solid #C39122;
+    padding: 3% 0;
+    background: #fff;
+    ;
+    color: #C39122;
+
+}
+
+.prez-avis form {
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.prez-avis input {
+    margin: 0 auto;
+    display: block;
+    width: 20%;
+    color: #C39122;
+
+}
+
+
+.prez-avis h2 {
+    text-decoration: underline;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.option input {
+    display: inline;
+    width: 5%;
+}
+
+.temoignage {
+    /* border: 1px solid #000; */
+    display: flex;
+    height: auto;
+    margin: 1vh 0;
+    width: 100%;
+}
+
+.avatar {
+    width: 30%;
+    border: 1px solid #000;
+    padding-top: 5px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: 1%;
+    background: #828E82;
+    color: #fff;
+}
+
+.avatar img {
+    width: 100px;
+    height: auto;
+    margin-left: -15%
+}
+
+
+.message {
+    width: 70%;
+    text-align: justify;
+    border: 1px solid #C39122;
+    height: auto;
+    padding: 1rem;
+}
+
+/*********************Page Avis (fin)*************************/
+
+
+
+/***********************Page actualites (debut)********/
+#actualités {
+    /* background: #f6f2ed; */
+    color: #fff;
+}
+
+#prez-actu {
+    border: 2px solid #C39122;
+    padding: 1%;
+    background: #fff;
+    text-align: justify;
+    color: #000;
+}
+
+#prez-actu h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#prez-actu h2 {
+    text-decoration: underline;
+}
+
+#info1 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+#info2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+#info3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+#info1 h3,
+#info1 h2 {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 3% 0;
+}
+
+#info2 h3,
+#info2 h2 {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 3% 0;
+}
+
+#info3 h3,
+#info3 h2 {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 3% 0;
+}
+
+.news {
+    display: flex;
+    margin: 5px 0;
+}
+
+
+.news1,
+.news2 {
+    width: 50%;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding: 10px;
+    color: #000;
+    border: 1px solid #C39122;
+}
+
+.news1 img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.news1 ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.news1 ul li {
+    display: inline;
+}
+
+.news2 img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.news2 ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.news2 ul li {
+    display: inline;
+}
+
+
+/***********************Page actualites (fin)********/
+
+/***************Mentions legales (début)*******************/
+#mentions {
+    border: 1px solid #C39122;
+    text-align: center;
+    padding: 5rem;
+    margin: 5vh 0;
+}
+
+/***************Mentions legales (fin)*******************/
+
+/*******************debut footer*************************/
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: #47413A;
+    color: #fff;
+    margin: -0px 0;
+}
+
+footer h2 {
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+#footer-left,
+#footer-center,
+#footer-right {
+    width: 32%;
+    margin: 0 2%;
+}
+
+
+#footer-right li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.plan-site {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.plan-site ul {
+    margin: 0 5%;
+}
+
+#footer-left li {
+    list-style: none;
+    padding: 4px 0;
+}
+
+#footer-left li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#footer-right li {
+    padding: 4px 0;
+    list-style: none;
+    margin: 3% 0;
+    text-align: center;
+}
+
+button {
+    color: #fff;
+    background-color: #C39122;
+    border: 0px;
+    padding: 3px 3px;
+}
+
+#footer-center li {
+    padding: 4px;
+    display: inline;
+    text-align: center;
+}
+
+#footer-center li img {
+    max-width: 25px;
+    max-height: 25px;
+    margin-top: 2px;
+    padding: 2px;
+    text-align: center;
+}
+
+
+/**********************(fin)footer********************/
